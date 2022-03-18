@@ -1,0 +1,42 @@
+.task-details, .edit-task {
+    margin: 4% auto;
+    display: block;
+    width: 30%;
+}
+.edit-task-name {
+    width: 100%;
+}
+.todo {
+    list-style: none;
+}
+.task {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0.8em;
+}
+h2 {
+    font-weight: normal;
+    display: inline !important; 
+}
+[type='checkbox'] {
+    width: 15px;
+    height: 15px;
+    margin: 9.5px !important;
+}
+.task-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-task {
+    width: 48%;
+    height: 2em;
+    border-radius: 5px;
+    border-width: inherit;
+    color: white;
+}
+.btn-edit, .btn-save {
+    background-color: #141414;
+}
+.btn-delete, .btn-cancel {
+    background-color: brown;
+}
